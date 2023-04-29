@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav{
+  width: auto;
+  background-color: antiquewhite;
+  height: 7vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+ul .logo .active{
+  font-size: larger;
+  font-weight: bold;
+  color: #00354f !important;
+}
+
+ul .logo{
+  font-size: larger;
+  font-weight: bold;
+  color: #00354f !important;
+}
+
+ul li{
+  list-style: none;
+}
+
+ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+ul li a:hover {
+color: #00a8ff;
+}
+
+ul li a.active {
+color: #07f667;
+}
+
+.item-section{
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 0 0;
+}
+
+.items{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+}
+
+.item{
+  border : 1px solid black;
+  width : 300px;
+  text-align : center;
+}
+
+.item img{
+  width : 250px;
+  height : 100px;
+}
